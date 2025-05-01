@@ -1,0 +1,5 @@
+.hugo_build.lock
+archetypes/
+hugo.yaml
+public/
+
