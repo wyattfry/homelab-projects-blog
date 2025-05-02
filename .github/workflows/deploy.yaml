@@ -18,6 +18,11 @@ jobs:
         with:
           hugo-version: 'latest'
 
+      - name: Print directory
+        run: |
+          pwd
+          ls -la
+
       - name: Build site
         run: hugo --minify
 
