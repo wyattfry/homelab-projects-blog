@@ -18,14 +18,16 @@ jobs:
         with:
           hugo-version: 'latest'
 
-      - name: Print directory
+      - name: Clone Theme Git Submodule
         run: |
-          pwd
-          ls -la
+          ./clone_submod.sh
 
-      - name: Build site
-        run: hugo --minify
-
-      - name: Copy site to remote server
+      - name: Build site, Fail on WARN
         run: |
-         rsync -a public/* /var/www/hugo.lan/
+          if hugo --minify 2>&1 | grep WARN; then
+            exit 1
+          fi
+
+      - name: Copy site to nginx static site directory
+        run: |
+          rsync -a public/* /var/www/hugo.lan/
