@@ -28,4 +28,4 @@ jobs:
 
       - name: Copy site to remote server
         run: |
-          mv public/* /var/www/hugo.lan/
+          mv -f public/* /var/www/hugo.lan/
