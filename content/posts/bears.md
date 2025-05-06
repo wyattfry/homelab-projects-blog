@@ -3,12 +3,14 @@ date: '2025-05-02T10:27:20-04:00'
 draft: false
 title: 'Bears: The Making of a Game'
 cover: 
-  image: bears.png
+  image: /bears.png
 ---
 
 ### Making a multiplayer browser-based game based on the card game "Bear Valley"
 
 [Bears Game](https://bears.wyattfry.com)
+
+![alt](/bears.png)
 
 It started when I found a little card game at the library's used game sale a
 few months ago. I played it a couple times with my son and thought it was pretty
