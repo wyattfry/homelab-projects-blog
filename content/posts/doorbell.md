@@ -1,6 +1,6 @@
 ---
 date: '2025-05-02T10:27:35-04:00'
-draft: false
+draft: true
 title: 'Doorbell'
 ---
 
