@@ -15,7 +15,7 @@ I started sketching it out, my requirements were as follows:
 * At least 2 HDDs for storage (OS can go on whatever)
 * Have expansion potential (more disks, more nodes)
 
-![alt](/NAS.svg)
+![Diagram of possible layout of NAS build](/NAS.svg)
 
 ## Parts List
 
