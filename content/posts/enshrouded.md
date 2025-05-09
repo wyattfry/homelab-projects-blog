@@ -4,7 +4,7 @@ draft: false
 title: 'Enshrouded Dedicated Server'
 ---
 
-![A cat reading a newspaper thinking about making a survival game](/cat.jpb)
+![A cat reading a newspaper thinking about making a survival game](/cat.jpeg)
 
 After much toil, I finally got my Enshrouded dedicated server running. If
 there's an easier way, I would love to know it. Until then, here's what I did.
